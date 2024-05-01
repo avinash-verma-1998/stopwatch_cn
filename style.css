@@ -1,0 +1,31 @@
+.stopwatch {
+    width: 40em;
+    height: 20em;
+    background-color: black;
+    margin: auto;
+}
+
+.time {
+    color: white;
+    font-size: 4em;
+    text-align: center;
+}
+
+.controls {
+    display: flex;
+    justify-content: center;
+    padding: 2em;
+    gap: 2em;
+}
+
+.controls button {
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-weight: 900;
+    font-size: 2em;
+}
+
+.controls button:hover {
+    cursor: pointer;
+}
